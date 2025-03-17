@@ -1,0 +1,43 @@
+JavaScript Variables
+Variables are "containers" for storing information.
+
+JavaScript variables are used to hold values or expressions.
+
+A variable can have a short name, like x, or a more descriptive name, like carname.
+Rules for JavaScript variable names:
+
+ Variable names are case sensitive (y and Y are two different variables)
+ Variable names must begin with a letter or the underscore character
+
+Note: Because JavaScript is case-sensitive, variable names are case-sensitive.
+Example
+
+
+A variable's value can change during the execution of a script. You can refer to a variable by its name to
+display or change its value.
+
+
+<html>
+<body>
+<script type="text/javascript">
+var firstname;
+firstname="Welcome";
+document.write(firstname);
+document.write("<br />");
+firstname="XYZ";
+document.write(firstname);
+</script>
+<p>The script above declares a variable,
+assigns a value to it, displays the value, change the value,
+and displays the value again.</p>
+</body>
+</html>
+Output :
+
+
+Welcome
+
+XYZ
+
+The script above declares a variable, assigns a value to it, displays the value, change the value, and
+displays the value again
